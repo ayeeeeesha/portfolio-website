@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+</head>
+<style>
+    body {
+        background-color: pink;
+       height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+    body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+ 
+  a {
+    text-decoration: none;
+  }
+
+  /* navbar */
+.logo {
+  font-size: 200px;
+  color: rgb(102, 12, 147);
+  text-decoration: none;
+  margin-top: 70px;
+  margin-left: 2350px;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  
+}
+.navbar ul {
+ display: flex;
+ 
+}
+.navbar ul li{
+ list-style: none;
+ 
+}
+button {
+    height: 200px;
+    width: 1750px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 80px; 
+    margin-top: 90px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+button:hover {
+        background-color: rgb(255, 174, 187);
+
+        transition: .8s;
+   
+    }
+    button:hover a{
+      color: rgb(95, 161, 44);
+
+    }
+    
+
+    h1 {
+      text-align: center;
+      font-size: 90px;
+      margin-top: 78px;
+      
+    }
+
+    /* poster */
+    .poster{
+        text-align: center;
+        font-size: 80px;
+        margin-left: 900px;
+        margin-right: 900px;
+    }
+
+
+    /* projectss */
+.pics-row {
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    margin-top: 80px;
+    
+
+}
+
+.pics-row img {
+    width: 1100px;
+      /* crop the video */
+    object-position: center;
+    border-radius: 2px;
+    
+}
+.headings {
+  font-size: 60px;
+  margin-top: 50px;
+  margin-right: 3999px;
+}
+.text-row {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  margin-top: 40px;
+}
+.text-row p{
+  width: 900px;
+  height:0px;
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+}
+     /* canva-posters */
+.canva{
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  margin-top: 40px;
+  width: 100px;
+  height: 1444px;
+  margin-left: 2666px;
+
+}
+
+.ai3{
+  width: 1000px;
+}
+.biz{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 200px;
+  width: 2000px;
+  height: 1333px;
+  margin-left: 1666px;
+  
+}
+.text {
+  margin-top: 300px;
+}
+
+.video {
+  display: flex;
+    justify-content: center;
+    gap:200px;
+    margin-top: 80px;
+    height: 1000px;
+    margin-bottom: 300px;
+    
+  
+}
+/* ---- Education + Skills Layout ---- */
+.edu-skill-section {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 40px;
+}
+
+.education-box, .skills-box {
+  margin-left: 100px;
+  margin-top: 90px;
+  padding: 90px;
+  background: #ffdddd;
+  border-radius: 18px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  height: 1500px;
+  width: 4000px;
+  margin-right: 90px;
+  
+
+}
+
+.education-box h1, .skills-box h1 {
+  font-size: 80px;
+  margin-top: 14px;
+   color: rgb(102, 12, 147);
+}
+.edu-item {
+  font-size: 46px;
+  margin-left: 300px;
+  margin-top: 70px;
+}
+
+.soft{
+ margin-left: 1200px;
+ margin-top: -1280px;
+ line-height: 1.9;
+
+}
+.hard{
+  margin-left: 100px;
+  margin-top: -90px;
+  margin-top: 9px;
+  line-height: 1.9;
+}
+
+.skills-box {
+  font-size: 50px;
+}
+.hard .stars{
+  
+  float: right;
+  font-size: 70px;
+  color: #ff9ac6;
+  letter-spacing: 2px;
+  margin-right: 200px;
+  margin-top: -40px;
+ 
+}
+.soft .stars{
+    float: right;
+  font-size: 0px;
+  color: #ff9ac6;
+  letter-spacing: 2px;
+ 
+}
+.str{
+    float: right;
+  font-size: 70px;
+  color: #ff9ac6;
+  letter-spacing: 2px;
+  margin-right: 1200px;
+  margin-top: -930px;
+
+}
+
+/* ---- Experience Section ---- */
+
+.experience {
+  margin-top: 200px;
+  text-align: center;
+  padding: 60px 20px;
+   color: rgb(102, 12, 147);
+  
+}
+.experience h1{
+  font-size: 100px;
+
+}
+
+.experience-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.exp-box {
+  width: 1100px;
+  height: 900px;
+  background: #ffdddd;
+  padding: 90px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+  transition: 0.3s;
+ 
+
+}
+
+.exp-box:hover {
+  transform: translateY(-6px);
+  background-color: rgb(252, 197, 197);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  color: rgb(255, 255, 255);
+}
+
+.exp-box h2 {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.exp-box p {
+  margin-top: 80px;
+  font-size: 60px;
+  line-height: 1.5;
+}
+.hover-img {
+  
+  border-radius: 10px;    
+  transition: all 0.3s ease; 
+}
+
+/* Hover effect */
+.hover-img:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+  transform: translateY(-5px); 
+}
+
+.icon img {
+  width: 200px;                 
+  height: 200px;
+  cursor: pointer;
+  margin-bottom: 200px;
+  margin-left: 90px;
+  margin-top: 90px;
+         
+  
+}
+.icon {
+ width: 100%;
+    background-color: #ffffff;  
+    padding: 15px 0;             
+    display: flex;
+    justify-content: center; 
+  }
+
+
+</style>
+<body>
+       <nav class="navbar">
+    <a href="#" class="logo">Portfolio</a>
+    <ul>
+      <li><button><a href="index.html" target="_blank">About me</a></button></li>
+      <li><button><a href="projects.html" target="_blank">Projects</a></button></li>
+      <li><button><a href="index.html" target="_blank">Contacts</a></button></li>
+    </ul>
+  </nav>
+
+    <!-- ===== EDUCATION + SKILLS SECTION (SIDE BY SIDE) ===== -->
+<section class="edu-skill-section">
+
+  <!-- LEFT SIDE: EDUCATION -->
+  <div class="education-box">
+    <h1>Education</h1>
+    <hr><br>
+
+    <div class="edu-item">
+      <p>⦾ 2025 - Ongoing</p>
+      <h2>BS Computer Science</h2>
+      <p>Kinnaird College for Women University</p>
+    </div><br>
+
+    <div class="edu-item">
+      <p>⦾ 2023 - 2025</p>
+      <h2>Intermediate (ICS)</h2>
+      <p>Punjab Group of Colleges</p>
+    </div><br>
+
+    <div class="edu-item">
+      <p>⦾ 2021 - 2023</p>
+      <h2>Matriculation (Science)</h2>
+      <p>Hajveri Lyceum High School</p>
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE: SKILLS WITH RATING -->
+  <div class="skills-box">
+    <h1 style="margin-top: 20px;">Skills</h1>
+    <hr><br>
+<main class="hard ">
+    <h2 >Hard Skills</h2>
+
+    <p>Programming <span class="stars">★★★★☆</span></p>
+    <p>MS Office <span class="stars">★★★★★</span></p>
+    <p>Canva <span class="stars">★★★★★</span></p>
+    <p>Graphic Design <span class="stars">★★★★☆</span></p>
+    <p>Artistic Skills <span class="stars">★★★☆☆</span></p>
+    <p>Content Creation <span class="stars">★★★★☆</span></p>
+</main>
+    <br><br>
+<main class="soft">
+    <h2 >Soft Skills</h2>
+    <p>Organized <span class="stars">★★★★★</span></p>
+    <p>Creativity <span class="stars">★★★★★</span></p>
+    <p>Leadership <span class="stars">★★★★☆</span></p>
+    <p>Trustworthy <span class="stars">★★★★★</span></p>
+    <p>Teamwork <span class="stars">★★★★☆</span></p>
+    <p>Discipline <span class="stars">★★★★★</span></p>
+   
+
+</main>
+<main class="str">
+    <!-- <p>★★★★★</p> -->
+    <p>★★★★☆</p>
+    <p>★★★★★</p>
+    <p>★★★★☆</p>
+    <p>★★★★★</p>
+    <p>★★★★☆</p>
+   </main>
+  </div>
+
+</section>
+
+
+<!-- ===== EXPERIENCE SECTION BELOW ===== -->
+<section class="experience">
+  <h1>Experience</h1>
+  <hr><br><br>
+
+  <div class="experience-row">
+
+    <div class="exp-box">
+      <h2>CLASS REPRESENTATIVE</h2>
+      <p>Hajveri Lyceum High School (2019–2022)<br><br>
+      Managed discipline, helped teachers, organized activities.</p>
+    </div>
+
+    <div class="exp-box">
+      <h2>CREATIVE WORK</h2>
+      <p>Hajveri Lyceum High School (2021–2023)<br><br>
+      Designed charts, visuals and educational diagrams.</p>
+    </div>
+
+    <div class="exp-box">
+      <h2>SOCIAL MEDIA DESIGNER</h2>
+      <p>We-Eaglefire (2022–2023)<br><br>
+      Designed posters, reels, managed social media.</p>
+    </div>
+
+    <div class="exp-box">
+      <h2>LOCAL SOAP DESIGNER</h2>
+      <p>Creative Designer (2023–2024)<br><br>
+      Made visuals for product promotion & branding.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+       <!-- Projects -->
+  
+
+<br>
+  <h1 style="color: rgb(79, 32, 114); font-size: 140px; margin-top: 200px;"  style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Projects</h1><hr>
+  <br><h1 style="color: rgb(79, 32, 114);">Scratch Projects</h1><br>
+   <div class="pics-row">
+   <img src="pics/game.png" alt="game">
+   <img src="pics/game2.png" alt="game">
+   <img src="pics/game3.png" alt="game">
+   <img src="pics/scratch5.png" alt="game">
+
+</div>
+<div  class="text-row">
+  <p>made chicken run game in my first semester</p>
+  <p>Fun Shark game as scratch project</p>
+  <p>Musical Instrument game in scratch</p>
+  <p>Football game in scratch</p>
+ 
+</div>
+
+<br>
+<br>
+<h1 class="text" style="color: rgb(79, 32, 114); margin-top: 400px;">Canva projects</h1><hr>
+<p class="poster" style="margin-top: 200px;">1. Ai - Human  Posters</p>
+<div class="canva">
+<img src="pics/ai human 3.jpg" alt="Ai-Human Poster" class="hover-img">
+<img src="pics/aihuman 2.jpg" alt=" poster" class="hover-img">
+<img class="ai3" src="pics/ai human poster.jpg" alt="poster" class="hover-img"></div>
+
+<p class="poster" style="margin-top: 300px;">2. Business  Posters</p>
+<div class="biz">
+<img src="pics/biz1.jpg" alt="Poster" class="hover-img">
+<img src="pics/biz2.jpg" alt=" poster" class="hover-img">
+<img src="pics/biz3.jpg" alt="poster" class="hover-img">
+<img src="pics/biz4.jpg" alt="poster" class="hover-img">
+  
+
+</div>
+
+<h1 style="margin-top: 300px; color: rgb(79, 32, 114);">ATM SYSTEM</h1>
+<div class="video" >
+  <img src="pics/atm.png" alt="">
+  </div>
+  <br>
+
+  <div class="icon">
+       <a href="https://pk.linkedin.com/company/kinnaird-college-for-women"><img src="pics/linkedin.png" alt="linkedin" target="_blank"></a>
+       <a href="https://www.instagram.com/kinnairdofficial/"><img src="pics/ins.png" alt="instagram" target="_blank"></a>
+       <a href="https://www.youtube.com/@kinnairdofficial"> <img src="pics/yt.png" alt="youtube"target="_blank"></a>
+      
+        </div>
+
+
+</body>
+</html>
